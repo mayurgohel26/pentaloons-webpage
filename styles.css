@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: palevioletred;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    text-align: end;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 25px 10px 10px;
+    margin: 10px 25px 10px 0px;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    transition: 0.2s ease-out;
+}
+
+section {
+    position: relative;
+    /* background-color: aqua; */
+    background-image: url(./practice/asset\ 32.png);
+    padding: 15px 15px 15px 15px;
+}
+
+section img {
+    height: 250px;
+    width: 250px;
+    padding: 10px 5px;
+}
+
+section .btn {
+    background-color: blueviolet;
+    border-radius: 10px;
+    position: absolute;
+    top: 75%;
+    left: 7%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+section .btn1 {
+    background-color: blue;
+    border-radius: 10px;
+    position: absolute;
+    top: 75%;
+    left: 27%;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.3 ease-out;
+}
+
+section .btn2 {
+    background-color: orchid;
+    border-radius: 10px;
+    position: absolute;
+    top: 75%;
+    left: 47%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+section .btn3 {
+    background-color: darkgreen;
+    border-radius: 10px;
+    position: absolute;
+    top: 75%;
+    left: 67%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+section .btn4 {
+    background-color: black;
+    border-radius: 10px;
+    color: aliceblue;
+    position: absolute;
+    top: 75%;
+    left: 85%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+section .btn:hover {
+    background-color: aqua;
+}
+
+section .btn1:hover {
+    background-color: aqua;
+}
+
+section .btn2:hover {
+    background-color: aqua;
+}
+
+section .btn3:hover {
+    background-color: aqua;
+}
+
+section .btn4:hover {
+    color: black;
+    background-color: aqua;
+}
+
+h4 {
+    height: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
